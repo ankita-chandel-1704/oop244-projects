@@ -1,0 +1,4 @@
+In this workshop we learned how to set designing of the code using functions according to 
+the length of the name. Al the claculations behind it and setting the names and printing tags again using a class and 
+where all the names are instances of the classes. The program is executed through the functions, that controls which option 
+will be selected through selection, and displaying output accordingly.

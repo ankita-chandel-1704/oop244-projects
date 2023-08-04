@@ -1,0 +1,3 @@
+g++ -Wall -std=c++11 -g -o ws main.cpp VehicleBasic.cpp Dumper.cpp
+
+valgrind --show-error-list=yes --leak-check=full --show-leak-kinds=all --track-origins=yes ./ws

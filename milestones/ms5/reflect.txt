@@ -1,0 +1,16 @@
+/*****************************************************************************
+                               Reflection
+Full Name  :  Ankita Chandel
+Student ID#:  16173219
+Section    :ZBB
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************/
+
+
+This milestone is the last project for this OOP semester.This is a mixture of all the things that I learned throughout this course including encapsulation,abstraction,polymorphism and inheritence.Honeslty,when I see the output of this I was really amazed that I did complete this whole project and it was really interesting to know how the valet parking will work on coding.I don't think so I faced any difficulty in completing this project.So this was the good ending of the project.
+
+

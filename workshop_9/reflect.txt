@@ -1,0 +1,19 @@
+
+
+//Name: ankita chandel
+//Student Id : 161324335
+//Seneca Email : achandel1@myseneca.ca
+//I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+                                                           REFLECTION FOR W9
+In this workshop, I learned about that abstract class and pure virtual functions.There are two types of classes:abstract class and concrete class.An abstract class is the base class that defines the interface,whereas the concrete class is the derived class that do implementation of interface.
+The main component of abstarct class is pure virtual function. The pure virtual function has no implementations.When we put the virtual function =0 then it becomes the pure virtual function.
+I declared these two pure virtual functions in this workshop i.e. 
+            virtual void draw(std::ostream& os) const = 0;//takes the reference to ostream
+		virtual void getSpecs(std::istream& is) = 0;//takes the reference to istream
+I also got to know about how to declare the abstarct class in .h files.
+              class LblShape : public Shape {
+I declared the LblShape as abstract class
+The declaration of concrete class takes the form like this:
+               class Line :public LblShape //inherits the LblShape class
+               class Rectangle :public LblShape //inherits the LblShape class

@@ -1,0 +1,7 @@
+Reflect
+
+
+In this workshop  we learned and used basic topic of c++ like functions and adding a file , and its content to the code 
+then we read the value frm code and compared it using different functions in different modules and programmed the code accordingly 
+for every condition there would be a different output and also added the output at the end , checking if  the input matches the condition 
+if not then dislaying error, we used flags in form of bools and pointers for storing fnction.

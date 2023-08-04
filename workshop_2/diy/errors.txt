@@ -1,0 +1,4 @@
+Population.cpp: In function ‘bool sdds::load(const char*)’:
+Population.cpp:26:8: warning: variable ‘done’ set but not used [-Wunused-but-set-variable]
+   bool done = false;
+        ^

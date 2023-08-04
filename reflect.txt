@@ -1,0 +1,3 @@
+in this workshop i learned aboit passing an array to structure and usage of functions to create iterating functions 
+that brings use of loops to make the code readable nd understanding by user , also we can create a software 
+for taking user input and store pre defined info in structures and use them in function and present the  desired code or output.

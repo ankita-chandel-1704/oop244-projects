@@ -1,0 +1,4 @@
+Reflection 
+In this workshop we are doing to things simultaneously , deciding the kind of bus by entering the no of bus,
+code will check if the no is valid and choose a kind of bus and prompt user to enter names and assign them 
+ticket number.

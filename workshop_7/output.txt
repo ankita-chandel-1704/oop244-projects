@@ -1,0 +1,66 @@
+----------------------------------------------------------
+|> Vehicle 1: Basic Vehicle
+----------------------------------------------------------
+| 2010 | abc-123 | Factory
+
+| abc-123| |             Factory ---> Downtown Toronto    |
+| abc-123| |    Downtown Toronto ---> Mississauga         |
+| abc-123| |         Mississauga ---> North York          |
+
+| 2010 | abc-123 | North York
+
+----------------------------------------------------------
+|> Vehicle 2: Read/Write
+----------------------------------------------------------
+Built year: 2018
+License plate: abc-123
+Current location: Ottawa
+
+| 2018 | abc-123 | Ottawa
+
+----------------------------------------------------------
+|> Vehicle 3: Dumper
+----------------------------------------------------------
+|  T-1111| |             Factory ---> Toronto HQ          |
+
+|  T-1111| |          Toronto HQ ---> Toronto Deposit     |
+
+Cargo loaded!
+Status | 2015 | T-1111 | Toronto Deposit | 2345/5432
+
+|  T-1111| |     Toronto Deposit ---> Ottawa              |
+
+Cargo loaded!
+Status | 2015 | T-1111 | Ottawa | 2468/5432
+
+|  T-1111| |              Ottawa ---> Montreal            |
+
+Loading cargo failed!
+Status | 2015 | T-1111 | Montreal | 2468/5432
+
+|  T-1111| |            Montreal ---> New York            |
+
+Loading cargo failed!
+Status | 2015 | T-1111 | New York | 2468/5432
+
+|  T-1111| |            New York ---> New Jersey          |
+
+Cargo unloaded!
+Status | 2015 | T-1111 | New Jersey | 0/5432
+
+|  T-1111| |          New Jersey ---> Toronto             |
+
+Unloading cargo failed!
+Status | 2015 | T-1111 | Toronto | 0/5432
+
+----------------------------------------------------------
+|> Vehicle 4: Read/Write
+----------------------------------------------------------
+Built year: 2020
+License plate: dab-112
+Current location: Montreal
+Capacity: 7000
+Cargo: 0
+
+| 2020 | dab-112 | Montreal
+| 2020 | dab-112 | Montreal | 0/7000
